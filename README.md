@@ -4,7 +4,7 @@ The test code for the Class RooBernsteinEffi is C11 compliant.
 [i.e. to compile on fly in lxplus you can set:  
 scl enable devtoolset-7 tcsh]
 
-Executables are:
+Executables are the following:
 
 testGene <= Usage: ./testGene [Q2Bin]  [where QBin2=0,1,2,3,4,5,6,7,8]
 
@@ -95,5 +95,20 @@ to make just the program to reproduce the histogram files [testEffi3DB0-2016-mak
 ```
 
 make hist
+```
+
+to make all test for the Q2Bin 2, the chain is:
+```
+
+./testGene 2
+```
+
+./testGeneReFit 2 
+```
+
+./testEffi3DB0-2016-makeHisto 2
+```
+
+./testEffi 2 
 ```
 
