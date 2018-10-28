@@ -16,7 +16,7 @@ testGene <= Usage: ./testGene [Q2Bin]  [where QBin2=0,1,2,3,4,5,6,7,8]
 	    
 		- extracts the model parameters and write them in a text file: ListGenValues-2016-Q2Bin-[Q2Bin].txt;
 	    
-		- using the same model, it generates a Mini MC angular distribution (with statistic = [NFact]x[original number of MC generated events];
+		- using the same model, it generates a Mini MC angular distribution (with statistic = [NFact]x[original number of MC generated events], where NFact=700;
 	    
 		- test the Mini MC generated events distribution fitting it with the P-Wave model;
 	    
