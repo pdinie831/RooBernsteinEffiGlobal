@@ -335,7 +335,7 @@ if (argc>3 && (strcmp(argv[3],"c") == 0) ){
    OutFileInputHisto = TFile::Open(OutFileNameInputHisto,"READ");
    TTree *RecoB0TreeOut    = (TTree*)OutFileInputHisto->Get(OutputRecoB0TreeName);
    if(!RecoB0TreeOut ){
-     cout<<"TTree Reco Data: "<< OutputRecoB0TreeName <<" not found!!!"<<endl;
+     cout<<"TTree Reco Data: "<< OutputRecoB0TreeName <<" not found!!! Suggestion: remove this file e try again..."<<endl;
      exit(1);
    }else{
      cout<<"TTree Reco Data: "<< OutputRecoB0TreeName <<" OK FOUND!!!"<<endl;

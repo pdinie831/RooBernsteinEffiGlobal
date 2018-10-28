@@ -169,7 +169,7 @@ namespace {
     };
     static const char* includePaths[] = {
 "/usr/local/root-6.04.18/include/root",
-"/gwpool/users/dini/CMSKStarMuMu/RooBernsteinEffi/",
+"/gwpool/users/dini/RooBernsteinEffiGlobalMaster/RooBernsteinEffiGlobal1/",
 0
     };
     static const char* fwdDeclCode = 
